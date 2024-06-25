@@ -1,0 +1,209 @@
+/*Fonts*/
+@font-face {
+    src:local("Poppins Regular.ttf"),
+        local("Poppins Light.ttf"),
+        local("Poppins Bold.ttf"),
+        local("Poppins ExtraBold.ttf"),
+        url("static/fonts/Poppins-Regular.ttf"),
+        url("static/fonts/Poppins-Light.ttf"),
+        url("static/fonts/Poppins-Black.ttf"),
+        url("static/fonts/Poppins-Bold.ttf");
+}
+
+/*Body*/
+body{
+    background-color: #fffcf5;
+    font-family: Poppins;
+}
+
+
+
+
+/*Headings*/
+.projects-about-heading{
+    font-weight: 300;
+    font-size: 2.50rem;
+}
+
+.projects-heading-lower {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.about-me-heading {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+
+
+/*Links*/
+.home{
+    color:black;
+    text-decoration:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited {
+        text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:focus{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+.hyperlink {
+    color: #056fa3;
+}
+
+.hyperlink:hover {
+    text-decoration: underline;
+    color: #013D5A;
+}
+
+
+
+
+/*Main Container*/
+#container{
+}
+
+
+
+
+
+/*Main Wrapper*/
+#main-wrapper{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+/*Navigation Menu*/
+.logo {
+    color: black;
+    float: left;
+    padding-top: 0.25em;
+    padding-bottom: 0.5em;
+    font-weight: 700;
+    font-size: 3.25rem;
+    text-decoration: underline;
+    text-decoration-color: #708c69;
+    text-underline-offset: 0.5em;
+    text-decoration-thickness: 0.15em;
+}
+
+#menu {
+    clear: both;
+    align-content: center;
+    text-align: center;
+}
+
+.menu-link-ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+    padding: 0;
+}
+
+.menu-link-li{
+    float: left;
+    margin: 2em;
+}
+
+.menu-link-a{
+    font-size: 1.30rem;
+    font-weight: 300;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu-link-a:hover{
+    text-decoration: underline;
+    text-decoration-color: #708C69;
+    text-decoration-thickness: 0.25em;
+    text-underline-offset: 0.25em;
+}
+
+
+
+
+/*Projects Divs*/
+.featured-projects-about{
+
+}
+
+.project{
+    width: 50%;
+    float: left;
+}
+
+.project-head-div{
+    padding: 25px;
+}
+
+.project-content-div{
+    padding: 25px;
+}
+
+.project-image{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/*About Me Divs*/
+.about-me-div{
+    padding: 25px;
+}
+
+.about-me-image-div {
+    max-width: 20%;
+    max-height: 25%;
+    float: left;
+    padding-right: 35px;
+    padding-bottom: 25px;
+}
+
+.about-me-image{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/*Paragraphs*/
+.about-me-paragraph{
+    font-size: 1.15rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: justify;
+}
+
