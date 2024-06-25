@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\static\\img",
-    "\\static\\resume"
+    "\\static",
+    "\\static\\fonts"
   ],
-  "SelectedNode": "\\about-me.html",
+  "SelectedNode": "\\static\\fonts\\Poppins-Light.ttf",
   "PreviewInSolutionExplorer": false
 }

@@ -1,14 +1,36 @@
 /*Fonts*/
 @font-face {
-    src:local("Poppins Regular.ttf"),
-        local("Poppins Light.ttf"),
-        local("Poppins Bold.ttf"),
-        local("Poppins ExtraBold.ttf"),
-        url("static/fonts/Poppins-Regular.ttf"),
-        url("static/fonts/Poppins-Light.ttf"),
-        url("static/fonts/Poppins-Black.ttf"),
-        url("static/fonts/Poppins-Bold.ttf");
+    font-family: "Poppins";
+    src: local("Poppins-Regular") format("truetype"),
+         url("static/fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: 400;
 }
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins-Light") format("truetype"),
+         url("static/fonts/Poppins-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins-Bold") format("truetype"),
+         url("static/fonts/Poppins-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins-Black") format("truetype"),
+         url("static/fonts/Poppins-Black.ttf") format("truetype");
+    font-weight: 900;
+}
+     
+        
+        
+          
+        
 
 /*Body*/
 body{
@@ -184,7 +206,7 @@ a:active{
 
 .about-me-image-div {
     max-width: 20%;
-    max-height: 25%;
+    max-height: 35%;
     float: left;
     padding-right: 35px;
     padding-bottom: 25px;
