@@ -28,11 +28,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-     
-        
-        
-          
-        
+
 
 /*Body*/
 body{
@@ -41,17 +37,15 @@ body{
 }
 
 
-
-
 /*Headings*/
 .projects-about-heading{
     font-weight: 300;
-    font-size: 2.50rem;
+    font-size: 2.1rem;
 }
 
 .projects-heading-lower {
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .about-me-heading {
@@ -61,12 +55,20 @@ body{
 }
 
 
-
-
 /*Links*/
 .home{
-    color:black;
-    text-decoration:none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    transition: all ease 0.25s;
+}
+
+.home:hover {
+    color: #708C69;
+    text-decoration: underline;
+    text-decoration-thickness: 0.15em;
+    text-underline-offset: 0.25em;
+    text-decoration-color: #708C69;
 }
 
 a{
@@ -103,43 +105,38 @@ a:active{
 }
 
 
-
-
 /*Main Container*/
-#container{
+.container {
+    display: flex;
+    flex-direction: column;
 }
 
 
-
-
-
 /*Main Wrapper*/
-#main-wrapper{
+.main-wrapper{
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
 
 
-
-
-
 /*Navigation Menu*/
-.logo {
-    color: black;
-    float: left;
-    padding-top: 0.25em;
-    padding-bottom: 0.5em;
-    font-weight: 700;
-    font-size: 3.25rem;
-    text-decoration: underline;
-    text-decoration-color: #708c69;
-    text-underline-offset: 0.5em;
-    text-decoration-thickness: 0.15em;
+.main-nav {
+    display: flex;
+    flex-direction: column;
 }
 
-#menu {
-    clear: both;
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.menu {
     align-content: center;
     text-align: center;
 }
@@ -156,22 +153,24 @@ a:active{
     margin: 2em;
 }
 
-.menu-link-a{
+.menu-link-a {
+    display: block;
     font-size: 1.30rem;
     font-weight: 300;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
+    transition: all ease 0.25s;
+    text-decoration-color: #708C69;
 }
 
-.menu-link-a:hover{
+.menu-link-a:hover {
+    color: #708C69;
     text-decoration: underline;
-    text-decoration-color: #708C69;
     text-decoration-thickness: 0.25em;
     text-underline-offset: 0.25em;
+    text-decoration-color: #708C69;
 }
-
-
 
 
 /*Projects Divs*/
@@ -199,8 +198,6 @@ a:active{
 }
 
 
-
-
 /*About Me Divs*/
 .about-me-div{
     padding: 25px;
@@ -219,8 +216,6 @@ a:active{
     max-height: 100%;
     object-fit: cover;
 }
-
-
 
 
 /*Paragraphs*/
