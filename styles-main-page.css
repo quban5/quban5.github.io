@@ -30,22 +30,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-/*Body*/
 body{
     background-color: #fffcf5;
     font-family: Poppins;
 }
 
+.projects-about-heading-container {
+    border-top: solid;
+    border-top-color: #708C69;
+    border-top-width: 0.3rem;
+}
 
-/*Headings*/
-.projects-about-heading{
+.projects-about-heading {
     font-weight: 300;
-    font-size: 2.1rem;
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projects-heading-lower-container {
+    margin-bottom: 1.8rem;
 }
 
 .projects-heading-lower {
     font-weight: 300;
     font-size: 1.7rem;
+    margin-bottom: 0.6rem;
+}
+
+.small-info-span {
+    font-weight: 300;
+    font-size: 0.85rem;
+    padding-left: 1.7rem;
 }
 
 .about-me-heading {
@@ -117,6 +133,10 @@ a:active{
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 
@@ -146,6 +166,7 @@ a:active{
     overflow: hidden;
     display: inline-block;
     padding: 0;
+    margin-bottom: 2rem;
 }
 
 .menu-link-li{
@@ -178,27 +199,43 @@ a:active{
 
 }
 
+project-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
 .project{
-    width: 50%;
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    max-width: 900px;
 }
 
 .project-head-div{
     padding: 25px;
 }
 
-.project-content-div{
-    padding: 25px;
+.project-content-div {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
-.project-image{
+.project-content-text-heading {
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-image {
     max-height: 100%;
     max-width: 100%;
     object-fit: cover;
+    margin-bottom: 3rem;
+    border-radius: 1%;
+    box-shadow: 0px 0px 9px 6px rgba(0, 0, 0, 0.1);
 }
 
-
-/*About Me Divs*/
 .about-me-div{
     padding: 25px;
 }

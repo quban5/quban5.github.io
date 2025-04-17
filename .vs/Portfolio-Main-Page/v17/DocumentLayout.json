@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kuban\\Portfolio-Main-Page\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kuban\\Portfolio-Main-Page\\styles-main-page.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles-main-page.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kuban\\Portfolio-Main-Page\\wiersze.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wiersze.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kuban\\Portfolio-Main-Page\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kuban\\Portfolio-Main-Page\\styles-main-page.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles-main-page.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\kuban\\Portfolio-Main-Page\\index.html",
-              "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "C:\\Users\\kuban\\Portfolio-Main-Page\\index.html",
-              "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADAAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "wiersze.html",
+              "DocumentMoniker": "C:\\Users\\kuban\\Portfolio-Main-Page\\wiersze.html",
+              "RelativeDocumentMoniker": "wiersze.html",
+              "ToolTip": "C:\\Users\\kuban\\Portfolio-Main-Page\\wiersze.html",
+              "RelativeToolTip": "wiersze.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-24T21:21:09.94Z",
+              "WhenOpened": "2025-04-17T19:35:02.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "styles-main-page.css",
               "DocumentMoniker": "C:\\Users\\kuban\\Portfolio-Main-Page\\styles-main-page.css",
               "RelativeDocumentMoniker": "styles-main-page.css",
               "ToolTip": "C:\\Users\\kuban\\Portfolio-Main-Page\\styles-main-page.css",
               "RelativeToolTip": "styles-main-page.css",
-              "ViewState": "AgIAACUAAAAAAAAAAAArwC8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAAArwKgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-06-24T12:16:31.9Z",
               "EditorCaption": ""
