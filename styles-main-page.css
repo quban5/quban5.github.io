@@ -35,6 +35,35 @@ body{
     font-family: Poppins;
 }
 
+.bold-text {
+    font-size: inherit;
+    font-weight: 600;
+    line-height: inherit;
+    color: inherit;
+}
+
+.italic-text {
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: italic;
+    line-height: inherit;
+    color: inherit;
+}
+
+.unordered-list-generic {
+    font-size: inherit;
+    font-weight: 300;
+    line-height: inherit;
+    color: inherit;
+}
+
+.project-visit-link {
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
 .projects-about-heading-container {
     border-top: solid;
     border-top-color: #708C69;
@@ -120,15 +149,11 @@ a:active{
     color: #013D5A;
 }
 
-
-/*Main Container*/
 .container {
     display: flex;
     flex-direction: column;
 }
 
-
-/*Main Wrapper*/
 .main-wrapper{
     max-width: 1440px;
     margin-left: auto;
@@ -139,8 +164,10 @@ a:active{
     padding-right: 2rem;
 }
 
+.featured-projects {
+    width: 100%;
+}
 
-/*Navigation Menu*/
 .main-nav {
     display: flex;
     flex-direction: column;
@@ -153,7 +180,7 @@ a:active{
     padding-top: 0.25em;
     padding-bottom: 0.25em;
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 .menu {
@@ -176,7 +203,7 @@ a:active{
 
 .menu-link-a {
     display: block;
-    font-size: 1.30rem;
+    font-size: 1.2rem;
     font-weight: 300;
     color: black;
     text-decoration: none;
@@ -193,13 +220,7 @@ a:active{
     text-decoration-color: #708C69;
 }
 
-
-/*Projects Divs*/
-.featured-projects-about{
-
-}
-
-project-wrapper {
+.project-wrapper {
     display: flex;
     flex-direction: column;
 }
@@ -210,15 +231,16 @@ project-wrapper {
     margin-bottom: 0;
     margin-top: 0;
     max-width: 900px;
+    width: 100%;
 }
 
 .project-head-div{
-    padding: 25px;
+    padding: 1rem;
 }
 
 .project-content-div {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .project-content-text-heading {
@@ -227,7 +249,23 @@ project-wrapper {
     margin-bottom: 0.5rem;
 }
 
+.project-content-text {
+    line-height: 150%;
+    text-align: justify;
+    font-weight: 300;
+}
+
 .project-image {
+    max-height: 30rem;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 3rem;
+    border-radius: 1%;
+    box-shadow: 0px 0px 9px 6px rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+.project-image-pttk-site {
     max-height: 100%;
     max-width: 100%;
     object-fit: cover;
@@ -248,18 +286,53 @@ project-wrapper {
     padding-bottom: 25px;
 }
 
-.about-me-image{
+.about-me-image {
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
 }
 
-
-/*Paragraphs*/
-.about-me-paragraph{
+.about-me-paragraph {
     font-size: 1.15rem;
     font-weight: 400;
     line-height: 150%;
     text-align: justify;
 }
 
+.poem-head-div {
+    padding-left: 1.5rem;
+}
+
+.projects-heading-lower {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.poem-paragraph {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.poem-date {
+    font-weight: 300;
+    font-size: 0.8rem;
+    padding-left: 0;
+}
+
+.portfolio-footer {
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 1.2rem;
+}
+
+.author-span-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.author-span {
+    font-weight: 300;
+    font-size: 0.75rem;
+}
