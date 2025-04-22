@@ -1,6 +1,12 @@
 /*Fonts*/
 @font-face {
     font-family: "Poppins";
+    src: local("Poppins-Light") format("truetype"), url("static/fonts/Poppins-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Poppins";
     src: local("Poppins-Regular") format("truetype"),
          url("static/fonts/Poppins-Regular.ttf") format("truetype");
     font-weight: 400;
@@ -8,23 +14,20 @@
 
 @font-face {
     font-family: "Poppins";
-    src: local("Poppins-Light") format("truetype"),
-         url("static/fonts/Poppins-Light.ttf") format("truetype");
+    src: local("Poppins-SemiBold") format("truetype"), url("static/fonts/Poppins-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Figtree";
+    src: local("Figtree-Light") format("truetype"), url("static/fonts/Figtree-Light.ttf") format("truetype");
     font-weight: 300;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: local("Poppins-Bold") format("truetype"),
-         url("static/fonts/Poppins-Bold.ttf") format("truetype");
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: "Poppins";
-    src: local("Poppins-Black") format("truetype"),
-         url("static/fonts/Poppins-Black.ttf") format("truetype");
-    font-weight: 900;
+    font-family: "SofiaSans";
+    src: local("SofiaSans-Light") format("truetype"), url("static/fonts/SofiaSans-Light.ttf") format("truetype");
+    font-weight: 300;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -82,6 +85,17 @@ body{
     font-size: 1.9rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.projects-about-heading-contact {
+    font-weight: 300;
+    font-size: 1.9rem;
+    padding-top: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: solid;
+    border-top-color: #708C69;
+    border-top-width: 0.3rem;
 }
 
 .projects-heading-lower-container {
@@ -181,6 +195,7 @@ a:active{
 }
 
 .logo {
+    font-family: SofiaSans;
     margin-left: auto;
     margin-right: auto;
     color: black;
@@ -370,6 +385,11 @@ a:active{
     font-weight: 300;
     font-size: 0.8rem;
     padding-left: 0;
+}
+
+.about-me-h2 {
+    font-size: 1.3rem;
+    font-weight: 300;
 }
 
 .portfolio-footer {
