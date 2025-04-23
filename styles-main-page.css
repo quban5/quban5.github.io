@@ -78,6 +78,8 @@ body{
     border-top: solid;
     border-top-color: #708C69;
     border-top-width: 0.3rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .projects-about-heading {
@@ -85,6 +87,25 @@ body{
     font-size: 1.9rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.language-switch-span {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.language-switch-anchor-pl,
+.language-switch-anchor-en {
+    color: #000000;
+    text-decoration: none;
+}
+
+.language-switch-anchor-pl:hover,
+.language-switch-anchor-en:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    text-decoration-thickness: 0.05rem;
 }
 
 .projects-about-heading-contact {
