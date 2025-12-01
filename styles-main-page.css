@@ -57,6 +57,7 @@ body{
     font-size: inherit;
     font-weight: 300;
     line-height: inherit;
+    text-align: justify;
     color: inherit;
 }
 
@@ -281,11 +282,6 @@ a:active{
     padding: 1rem;
 }
 
-.project-content-div {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
-
 .project-content-text-heading {
     font-weight: 300;
     font-size: 1.3rem;
@@ -427,4 +423,15 @@ a:active{
 .author-span {
     font-weight: 300;
     font-size: 0.75rem;
+}
+
+@media (width <= 1040px) {
+
+.project-content-text-example-container {
+    margin: 0;
+}
+
+.project-content-text-example {
+    text-align: left;
+}
 }
