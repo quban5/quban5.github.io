@@ -1,12 +1,13 @@
+<!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Jakub Kowalski" />
     <title>Portfolio | Jakub Kowalski</title>
-    <link rel="preload" href="styles.css" as="style" />
+    <link rel="preload" href="styles-main-page.css" as="style" />
     <link rel="stylesheet" href="styles-main-page.css" type="text/css" />
-    <link href="static/fonts" rel='stylesheet' type='text/css'/>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
             <nav class="main-nav">
                 <div class="logo">
                     <span class="logo">
-                        <a class="home" href="index.html">Jakub Kowalski | Portfolio</a>
+                        Jakub Kowalski | Portfolio
                     </span>
                     </div>
                 <div class="menu">
@@ -24,13 +25,7 @@
                             <a class="menu-link-a" href="index.html">Projekty</a>
                         </li>
                         <li class="menu-link-li">
-                            <a class="menu-link-a" href="o-mnie.html">O mnie</a>
-                        </li>
-                        <li class="menu-link-li">
-                            <a class="menu-link-a" href="projekty-poboczne.html">Projekty poboczne</a>
-                        </li>
-                        <li class="menu-link-li">
-                            <a class="menu-link-a" href="wiersze.html">Wiersze</a>
+                            <a class="menu-link-a current-page" href="o-mnie.html">O mnie</a>
                         </li>
                         <li class="menu-link-li">
                             <a class="menu-link-a" href="zdjecia.html">Zdjęcia</a>
@@ -53,7 +48,7 @@
                             <span class="bold-text">Gry wideo zajmują w moim sercu szczególne miejsce</span>. Kiedy dostałem w swoje sześcioletnie ręce <span class="italic-text">Asterixa i&nbsp;Obelixa XXL</span> oraz <span class="italic-text">Tygryska i ucztę Kubusia</span>, stało się dla mnie jasne, że nie wyobrażam sobie życia bez gier.
 </p>
                         <p class="project-content-text">
-                            Odkąd pamiętam lubiłem coś tworzyć i budować – czy to domy z klocków LEGO, czy drogi, tory i całe stylizowane osady w <span class="italic-text">Minecrafcie</span>. Zdarzało mi się również pisać opowiadania i wiersze. <span class="bold-text">Dlatego też praca przy tworzeniu gier to moje marzenie, ponieważ łączy dwie największe pasje: szeroko pojęte tworzenie z grami wideo</span>.
+                            Odkąd pamiętam lubiłem coś tworzyć i budować – czy to domy z klocków LEGO, czy drogi, tory i całe stylizowane osady w <span class="italic-bold-text">Minecrafcie</span>. Zdarzało mi się również pisać opowiadania i wiersze. <span class="bold-text">Dlatego też praca przy tworzeniu gier to moje marzenie, ponieważ łączy dwie największe pasje: szeroko pojęte tworzenie z grami wideo</span>.
                         </p>
                         <p class="project-content-text">
                             Uczenie się nowych rzeczy daje mi dużą satysfakcję. Jednym z moich pobocznych projektów jest strona internetowa dla Oddziału PTTK "Szaniec" w Skierniewicach, na potrzeby której (i tego portoflio) nauczyłem się HTML-a&nbsp;i&nbsp;CSS-a. Pragnąc stworzyć własny zmodowany serwer <span class="italic-text">Minecraft</span> opanowałem podstawy Linuksa i tworzenia serwera na Oracle Cloud oraz jego obsługi poprzez SSH i FTP. <span class="bold-text">Nie ma więc dla mnie znaczenia, jeśli czegoś nie wiem lub nie umiem – jeżeli bardzo mnie coś interesuje, opanuję to szybko i&nbsp;z&nbsp;zaangażowaniem</span>.
@@ -63,7 +58,7 @@
                             Czym zajmuję się na studiach?
                         </h2>
                         <p class="project-content-text">
-                            Obecnie studiuję Media audiowizualne i kulturę cyfrową (studia magisterskie) na Uniwersytecie Łódzkim. W&nbsp;ramach zajęć zdobyłem wiedzę teoretyczną z zakresu m.in. <span class="bold-text">medioznawstwa, groznawstwa i kulturoznawstwa</span>. Brałem udział w zajęciach z historii, rodzajów gier wideo, analizy, krytyki i poetyki gier, projektowania reguł, gamifikacji, narracji interaktywnej, a także UI i UX. Posiadam również podstawową wiedzę na temat projektowania graficznego, sztuki nowych mediów, baz danych, wizulizacji informacji, sztuki generatywnej, historii sztuki oraz teorii kultury.
+                            Obecnie studiuję Media audiowizualne i kulturę cyfrową (studia magisterskie) na Uniwersytecie Łódzkim. W&nbsp;ramach zajęć zdobyłem wiedzę teoretyczną z zakresu m.in. <span class="italic-bold-text">medioznawstwa, groznawstwa i kulturoznawstwa</span>. Brałem udział w zajęciach z historii, rodzajów gier wideo, analizy, krytyki i poetyki gier, projektowania reguł, gamifikacji, narracji interaktywnej, a także UI i UX. Posiadam również podstawową wiedzę na temat projektowania graficznego, sztuki nowych mediów, baz danych, wizulizacji informacji, sztuki generatywnej, historii sztuki oraz teorii kultury.
                         </p>
                         <p class="project-content-text">
                             Tematem mojej pracy dyplomowej jest problem dostępności starszych gier w dystrybucji cyfrowej. Zamierzam między innymi przedstawić to zjawisko i związane z nim zawiłości, a także, przy pomocy skryptów w Pythonie, zebrać oraz przeanalizować dane z serwisu Metacritic i zbadać, jaki procent gier na PC wydanych do 2015 roku nie jest dostępnych legalnie do kupienia w sklepach cyfrowych (nie z drugiej ręki).
@@ -73,27 +68,33 @@
                             Poza pracą
                         </h2>
                         <p class="project-content-text">
-                            W wolnym czasie uwielbiam grać w przeróżne gry. Ostatnio zagrywam się z przyjaciółmi na zmodowanym serwerze <span class="italic-text">Minecrafta</span>, ale także w <span class="italic-text">Kingdom Come: Deliverance</span> i <span class="italic-text">Dark Souls III</span>.<br /><span class="bold-text">Oprócz wyżej wymienionych, moimi najważniejszymi i ulubionymi grami są: <span class="italic-text">Red Dead Redemption</span> 1 i 2, seria <span class="italic-text">Wiedźmin</span>, <span class="italic-text">Pentiment</span>, <span class="italic-text">Journey</span>, <span class="italic-text">What Remains of Edith Finch</span>, seria <span class="italic-text">Half-Life</span>, seria <span class="italic-text">Portal</span> oraz <span class="italic-text">Hollow Knight</span></span>.
+                            W wolnym czasie uwielbiam grać w przeróżne gry. Ostatnio zagrywam się z przyjaciółmi na zmodowanym serwerze <span class="italic-text">Minecrafta</span>, ale także w <span class="italic-bold-text">Kingdom Come: Deliverance</span> i <span class="italic-bold-text">Dark Souls III</span>.<br /><span class="bold-text">Oprócz wyżej wymienionych, moimi najważniejszymi i ulubionymi grami są: <span class="italic-bold-text">Red Dead Redemption</span> 1 i 2, seria <span class="italic-bold-text">Wiedźmin</span>, <span class="italic-bold-text">Pentiment</span>, <span class="italic-bold-text">Journey</span>, <span class="italic-bold-text">What Remains of Edith Finch</span>, seria <span class="italic-bold-text">Half-Life</span>, seria <span class="italic-bold-text">Portal</span> oraz <span class="italic-bold-text">Hollow Knight</span></span>.
 </p>
                         <p class="project-content-text">
                             Interesuję się również szeroko pojętą nową technologią, informatyką, kulturą popularną, historią i polityką. Latem zaś, zajmuję się winiarstwem, a drzewkami bonsai - cały rok.
                         </p>
                     </div>
-                <div class="project">
-                    <div class="projects-about-heading-container-about-me">
-                        <br />
-                        <h1 class="projects-about-heading-contact">Kontakt</h1>
-                    </div>
-                    <p class="project-content-text">
-                        <a class="hyperlink" href="mailto:jakub.kowalski@10g.pl">jakub.kowalski@10g.pl</a>
-                        <br />
-                        <a class="hyperlink" href="https://www.linkedin.com/in/jakub-kowalski-ba4b86259/" target="_blank">LinkedIn</a>
-                        <br />
-                        <a class="hyperlink" href="https://github.com/quban5" target="_blank">Github</a>
-                    </p>
-                </div>
             </div>
             <footer class="portfolio-footer">
+                <div class="contact-container">
+                    <div class="contact-icons-container">
+                        <div class="contact-icon">
+                            <a class="contact-icon-link" href="https://www.linkedin.com/in/jakub-kowalski-ba4b86259/" target="_blank">
+                                <img class="social-media-icon-footer" src="static\img\icons\linkedin-icon.svg">
+                            </a>
+                        </div>
+                        <div class="contact-icon">
+                            <a class="contact-icon-link" href="https://github.com/quban5" target="_blank">
+                                <img class="social-media-icon-footer" src="static\img\icons\github-icon.svg">
+                            </a>
+                        </div>
+                        <div class="contact-icon">
+                            <a class="contact-icon-link" href="mailto:jakub.kowalski@10g.pl" target="_blank">
+                                <img class="social-media-icon-footer" src="static\img\icons\mail-icon.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div class="author-span-container">
                     <span class="author-span">
                         Jakub Kowalski | 2026
