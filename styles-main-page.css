@@ -107,6 +107,10 @@ body{
     color: inherit;
 }
 
+.project-visit-link-container {
+    margin-top: 1.5rem;
+}
+
 .project-visit-link {
     font-size: inherit;
     font-weight: inherit;
